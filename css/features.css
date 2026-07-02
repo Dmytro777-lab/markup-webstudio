@@ -1,0 +1,38 @@
+.goals-list {
+  display: flex;
+  gap: var(--gap-md);
+}
+
+.goals-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.goals-wrapper {
+  background-color: var(--cloud);
+  width: 264px;
+  height: 112px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.goals-title {
+  margin-bottom: 8px;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.goals-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
