@@ -6,7 +6,6 @@
 .footer-container-top {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-container-info {
@@ -37,6 +36,7 @@
 
 .footer-container-socials {
   width: 208px;
+  margin-left: 120px;
 }
 
 .footer-socials-text {
